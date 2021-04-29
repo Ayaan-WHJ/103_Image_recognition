@@ -1,11 +1,68 @@
 body{
-    background: rgb(255,0,0);
-background: linear-gradient(908deg, rgba(255,0,0,1) 0%, rgba(255,183,0,1) 13%, rgba(207,255,0,1) 25%, rgba(1,239,0,1) 37%, rgba(0,255,209,1) 50%, rgba(0,31,255,1) 62%, rgba(235,0,255,1) 75%, rgba(255,36,166,1) 88%, rgba(0,254,255,1) 100%);
+    font-family: cursive;
+    background: rgb(255,40,40);
+background: linear-gradient(90deg, rgba(255,40,40,1) 0%, rgba(45,44,165,1) 30%, rgba(0,250,255,1) 50%, rgba(45,44,165,1) 70%, rgba(255,0,65,1) 100%);
 }
-.heading{
-color: blue;
-font-family: cursive;
+.header_div{
+    background-color:blue;
+    color: white;
 }
-p{
-    font-family:fantasy;
+.header_div img{
+    width: 100px;
+    border-radius: 50%;
+}
+.main_div{
+    background-color:orange;
+    padding: 10px ;
+    margin-top: 15px;
+    border: 3px solid black;
+
+}
+.main_div label{
+    background-color: rgb(255, 195, 82);
+    width: 310px;   
+    padding:10px;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 18px white ;
+}
+#camera,#result
+{
+    border: 2px solid black;
+    width: 310px;
+    height: 300px;
+    box-shadow: 5px 5px 18px black;
+}
+
+.main_div button
+{
+    width: 310px;
+    font-size: 16px;
+    box-shadow: 5px 5px 18px white;
+border: 1px solid;
+}
+.footer_div{
+    margin-bottom: 50px;
+    
+}
+.footer_div h4{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 18px white;
+    width: 100%;    
+}
+.footer_div img
+{
+    width: 70px;
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    color: gray;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    line-height: 3;
 }
